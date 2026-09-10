@@ -86,3 +86,15 @@ console.log(totalscores) // 126
 var scores1=[12,13,14,15,16]
 let totalscores1 = scores1.filter(score => score % 2 === 0).map(currentValue => currentValue * 3).reduce((sum, score) => sum + score,0)
 console.log(totalscores1) // 126
+
+//Sorting on Array
+let fruits = ["banana","mango","pomegranite","apple"]// Sort on string
+
+console.log(fruits.sort())
+console.log(fruits.reverse())
+
+let num=[12,003,19,34,16,13]
+
+num.sort((a,b)=>a-b)
+console.log(num)
+
